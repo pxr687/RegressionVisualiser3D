@@ -20,4 +20,4 @@ To aid understanding, the user can also specify the names of the predictor varia
 
 If the user does not supply population parameters, defaults are used.
 
-<b> Certain combinations of parameters will generate computational errors in that instance play around with them until you find combinations which do not cause errors. To use for teaching, it's best to find legal combinations ahead of time ;) </b>
+<b> Important Note: </b> Certain combinations of parameters will generate computational errors. In that instance play around with them until you find combinations which do not cause errors. To use for teaching, it's best to find legal combinations ahead of time :) 
