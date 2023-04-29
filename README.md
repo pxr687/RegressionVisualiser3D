@@ -1,5 +1,5 @@
 # RegressionVisualiser3D
-RegressionVisualiser3D is a simple single-function plotting toolbox for visualizing linear regression, Poisson regression and binary logistic regression in 3D, for teaching purposes.
+RegressionVisualiser3D is a simple single-function plotting toolbox for visualizing linear regression, Poisson regression and binary logistic regression in 3D, for teaching purposes. It is designed to be used in a Jupyter Notebook, but can also be used from the terminal (set `markdown == False` if using from the terminal).
 
 A notebook demonstrating the package is here: https://github.com/pxr687/RegressionVisualiser3D/blob/master/RegressionVisualiser3D_Demo.ipynb 
 
@@ -19,3 +19,5 @@ An optional regression table (with slopes and p-values etc.) is also shown, alon
 To aid understanding, the user can also specify the names of the predictor variables and the outcome variable.
 
 If the user does not supply population parameters, defaults are used.
+
+<b> Certain combinations of parameters will generate computational errors in that instance play around with them until you find combinations which do not cause errors. To use for teaching, it's best to find legal combinations ahead of time ;) </b>
