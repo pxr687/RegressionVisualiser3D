@@ -18,6 +18,9 @@ An optional regression table (with slopes and p-values etc.) is also shown, alon
 
 To aid understanding, the user can also specify the names of the predictor variables and the outcome variable.
 
-If the user does not supply population parameters, defaults are used.
+If the user does not supply population parameters, defaults are used. (The script
+`generate_legal_params.py` in the top level of the repo can be used to generate
+new legal defaults parameters, for the default axis dimensions... Legal default
+parameters are stored in .csv files in the `legal_default parameters` folder.)
 
 <b> Important Note: </b> Certain combinations of parameters will generate computational errors. In that instance play around with them until you find combinations which do not cause errors. To use for teaching, it's best to find legal combinations ahead of time :) 
